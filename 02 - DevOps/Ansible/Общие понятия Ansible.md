@@ -54,6 +54,19 @@ db1.example.com
 	    service:
 		    name: nginx
 		    state: started
+		    
+	  - name: Скопировать конфигурацию Nginx
+	      copy:
+	        src: configure.yaml
+	        dest: /etc/nginx/nginx.conf
+	        owner: root
+	        group: root
+	        mode: '0644'
+	        
+	  - name: Перезапустить Nginx
+	      service:
+	        name: nginx
+	        state: reloaded
 ```
 # Принципы работы Ansible
 1. Подготовка инвентаря:

@@ -169,3 +169,15 @@ iptables -D IPUT -p tcp --dport 80 -j ACCEPT
 iptables-save > /etc/iptables.rules
 iptables-restore < /etc/iptables.rules
 ```
+
+# Мини задача
+Нужно закрыть все порты, кроме **SSH 22** и **HTTP 80**, на сервере.
+```bash
+sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+sudo iptables -A INPUT -p tcp --dport 80 -j ACCEPT
+sudo iptables -A INPUT -p tcp -j DROP
+```
+**Порядок правил важен**:
+- В `iptables` правила обрабатываются сверху вниз.    
+- Если сначала поставить `DROP` на все порты, то до правил `ACCEPT` пакеты даже не дойдут.  
+- Правильный порядок: сначала разрешаем нужные порты, потом блокируем всё остальное.

@@ -4,49 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "3a7441c86bee260c",
+        "id": "178575dfdb2341ec",
         "type": "tabs",
         "children": [
           {
-            "id": "507e026d22b63ab9",
+            "id": "656fcbea4bc157f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02 - DevOps/Linux/LPIC-1 (exam 101)/03 LPIC 101.2 Процесс загрузки Linux.md",
+                "file": "00 - Шаблоны/Шаблоны.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03 LPIC 101.2 Процесс загрузки Linux"
+              "title": "Шаблоны"
             }
           },
           {
-            "id": "5f86ecf59e7fb196",
+            "id": "961e4d315e8e95c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "02 - DevOps/Подготовка к собеседованию/01 Вопросы на собеседовании.md",
-                "mode": "source",
-                "source": false
+                "aFile": "02 - DevOps/Ansible/Как работает инвентарь Ansible.md",
+                "bFile": "02 - DevOps/Ansible/Как работает инвентарь Ansible.md",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "01 Вопросы на собеседовании"
-            }
-          },
-          {
-            "id": "18ad83b0294c7ce2",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Граф"
+              "icon": "diff",
+              "title": "Diff: Как работает инвентарь Ansible"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -78,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git",
+                "query": "telnet",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 466.5
+    "width": 309.5
   },
   "right": {
     "id": "2f09d2317e496577",
@@ -137,12 +127,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02 - DevOps/Linux/Почитать и ознакомиться.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки из Почитать и ознакомиться"
+              "title": "Исходящие ссылки"
             }
           },
           {
@@ -152,7 +141,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Теги"
@@ -164,10 +155,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - DevOps/Linux/Почитать и ознакомиться.md"
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Почитать и ознакомиться"
+              "title": "Структура"
             }
           },
           {
@@ -189,16 +182,27 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
+          },
+          {
+            "id": "81b2c5d0c13b4177",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Очередь заметок на повторение"
+            }
           }
         ],
         "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 551.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Создать новую базу": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Меню быстрого перехода": false,
       "graph:Граф": false,
@@ -208,39 +212,42 @@
       "command-palette:Открыть палитру команд": false,
       "random-note:Открыть случайную заметку": false,
       "obsidian-excalidraw-plugin:Создать новый чертеж": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-spaced-repetition:Изучать карточки": false
     }
   },
-  "active": "09ff8fddc057cd74",
+  "active": "961e4d315e8e95c3",
   "lastOpenFiles": [
-    "02 - DevOps/Подготовка к собеседованию/01 Вопросы на собеседовании.md",
-    "02 - DevOps/Подготовка к собеседованию/Построение Dockerfile.md",
-    "02 - DevOps/Подготовка к собеседованию/Что такое CI-CD.md",
-    "Что такое CI/CD.md",
-    "02 - DevOps/Подготовка к собеседованию/Что такое Docker.md",
-    "02 - DevOps/Подготовка к собеседованию/Виртуализация vs контейнеризация.md",
-    "02 - DevOps/Подготовка к собеседованию/Вопросы по git.md",
-    "02 - DevOps/Подготовка к собеседованию/Порядок тестирования.md",
-    "02 - DevOps/Подготовка к собеседованию/Когда использовать Ansible, Helm, Terraform.md",
-    "02 - DevOps/Подготовка к собеседованию/Пример Pipline.md",
-    "02 - DevOps/Подготовка к собеседованию/CI И CD инструменты.md",
-    "02 - DevOps/Подготовка к собеседованию/CI и CD (непрерывная интеграция и доставка).md",
+    "02 - DevOps/Ansible/Переменные/Как написать файл с переменными Ansible.md",
+    "02 - DevOps/Ansible/Переменные/Переменные Ansible.md",
+    "02 - DevOps/Ansible/Переменные/Как задавать переменные в Ansible.md",
+    "02 - DevOps/Ansible/Роли/Удаленное выполнение ролей Ansible.md",
+    "02 - DevOps/Ansible/Роли/Роли Ansible.md",
+    "02 - DevOps/Ansible/Роли/Как писать роли Ansible.md",
+    "02 - DevOps/Ansible/Роли/Общие понятия о ролях в Ansible.md",
+    "02 - DevOps/Ansible/Как работает инвентарь Ansible.md",
+    "02 - DevOps/Ansible/Шаблоны Ansible.md",
+    "00 - Шаблоны/Ansible.md",
+    "00 - Шаблоны/Шаблоны.md",
+    "02 - DevOps/Ansible/Ansible.md",
+    "00 - Шаблоны/Основы python.md",
+    "00 - Шаблоны/Web python.md",
+    "00 - Шаблоны/Шаблон C++.md",
+    "00 - Шаблоны/Библиотеки python.md",
+    "03 - Python/Основы/Основы.md",
+    "03 - Python/Python.md",
+    "02 - DevOps/Bash/Основы/Команды/grep.md",
+    "02 - DevOps/Bash/Основы/Команды/kill.md",
+    "02 - DevOps/Bash/Основы/Команды/Команды Bash.md",
+    "02 - DevOps/Terraform/Синтаксис Terraform.md",
+    "02 - DevOps/Terraform/Как Terraform работает «под капотом».md",
     "02 - DevOps/Linux/LPIC-1 (exam 101)/03 LPIC 101.2 Процесс загрузки Linux.md",
+    "02 - DevOps/Ansible/Общие понятия Ansible.md",
+    "02 - DevOps/Сети/iptables.md",
+    "05 - БД/PostgreSQL",
+    "02 - DevOps/Linux/Логирование",
     "Что такое CI",
-    "02 - DevOps/Подготовка к собеседованию/Цели и задачи DevOps.md",
-    "02 - DevOps/Подготовка к собеседованию/DevOps vs Agile.md",
-    "02 - DevOps/Подготовка к собеседованию/Что такое DevOps.md",
-    "02 - DevOps/Подготовка к собеседованию/Коды http ответа.md",
-    "02 - DevOps/Подготовка к собеседованию/web-server.md",
-    "02 - DevOps/Подготовка к собеседованию/Сетевой уровень, протокол IP, ARP, маршрутизация.md",
-    "02 - DevOps/Подготовка к собеседованию/http vs https.md",
-    "02 - DevOps/Подготовка к собеседованию/Транспортный уровень tcp-ip.md",
-    "02 - DevOps/Подготовка к собеседованию/DNS, резолв.md",
-    "02 - DevOps/Подготовка к собеседованию/Http методы.md",
-    "02 - DevOps/Подготовка к собеседованию/Ввод адреса в браузер.md",
-    "02 - DevOps/Подготовка к собеседованию/tcp-ip.md",
     "09 - images/Pasted image 20250730204941.png",
-    "02 - DevOps/Подготовка к собеседованию/Что такое 127.0.0.1.md",
     "02 - DevOps/Terraform",
     "02 - DevOps/Kubernetes",
     "09 - images/Pasted image 20250729114257.png",
@@ -257,8 +264,6 @@
     "09 - images/Pasted image 20250717214711.png",
     "Excalidraw",
     "02 - DevOps/Git/02 Работа с историей",
-    "02 - DevOps/Git/01 Работа с HEAD",
-    "images",
     "02 - DevOps/Без названия.canvas",
     "Без названия.canvas"
   ]
