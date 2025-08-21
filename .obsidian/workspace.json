@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Шаблоны/Шаблоны.md",
+                "file": "00 - Шаблоны/00 Шаблоны.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Шаблоны"
+              "title": "00 Шаблоны"
             }
           },
           {
-            "id": "961e4d315e8e95c3",
+            "id": "8aac9f22b4ba0e6c",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "02 - DevOps/Ansible/Как работает инвентарь Ansible.md",
-                "bFile": "02 - DevOps/Ansible/Как работает инвентарь Ansible.md",
-                "aRef": ""
+                "file": "02 - DevOps/Подготовка к собеседованию/01 Вопросы на собеседовании.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Как работает инвентарь Ansible"
+              "icon": "lucide-file",
+              "title": "01 Вопросы на собеседовании"
             }
           }
         ],
@@ -109,6 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "02 - DevOps/Linux/Логирование/Общее.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Обратные ссылки"
+              "title": "Обратные ссылки для Общее"
             }
           },
           {
@@ -127,11 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "02 - DevOps/Linux/Логирование/Общее.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Исходящие ссылки"
+              "title": "Исходящие ссылки из Общее"
             }
           },
           {
@@ -155,12 +157,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "02 - DevOps/Linux/Логирование/Общее.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура"
+              "title": "Структура Общее"
             }
           },
           {
@@ -216,34 +219,34 @@
       "obsidian-spaced-repetition:Изучать карточки": false
     }
   },
-  "active": "961e4d315e8e95c3",
+  "active": "97d1d5ccdd701f2b",
   "lastOpenFiles": [
-    "02 - DevOps/Ansible/Переменные/Как написать файл с переменными Ansible.md",
-    "02 - DevOps/Ansible/Переменные/Переменные Ansible.md",
-    "02 - DevOps/Ansible/Переменные/Как задавать переменные в Ansible.md",
-    "02 - DevOps/Ansible/Роли/Удаленное выполнение ролей Ansible.md",
-    "02 - DevOps/Ansible/Роли/Роли Ansible.md",
-    "02 - DevOps/Ansible/Роли/Как писать роли Ansible.md",
-    "02 - DevOps/Ansible/Роли/Общие понятия о ролях в Ansible.md",
-    "02 - DevOps/Ansible/Как работает инвентарь Ansible.md",
-    "02 - DevOps/Ansible/Шаблоны Ansible.md",
-    "00 - Шаблоны/Ansible.md",
-    "00 - Шаблоны/Шаблоны.md",
-    "02 - DevOps/Ansible/Ansible.md",
-    "00 - Шаблоны/Основы python.md",
-    "00 - Шаблоны/Web python.md",
-    "00 - Шаблоны/Шаблон C++.md",
-    "00 - Шаблоны/Библиотеки python.md",
-    "03 - Python/Основы/Основы.md",
-    "03 - Python/Python.md",
-    "02 - DevOps/Bash/Основы/Команды/grep.md",
-    "02 - DevOps/Bash/Основы/Команды/kill.md",
-    "02 - DevOps/Bash/Основы/Команды/Команды Bash.md",
-    "02 - DevOps/Terraform/Синтаксис Terraform.md",
-    "02 - DevOps/Terraform/Как Terraform работает «под капотом».md",
-    "02 - DevOps/Linux/LPIC-1 (exam 101)/03 LPIC 101.2 Процесс загрузки Linux.md",
-    "02 - DevOps/Ansible/Общие понятия Ansible.md",
+    "02 - DevOps/Подготовка к собеседованию/00 Подготовка к собеседованию.md",
+    "02 - DevOps/Linux/LPIC-1 (exam 101)/01 LPIC 101.1 Работа с железом в Linux. Часть первая - sysfs, devfs, udev.md",
+    "02 - DevOps/Linux/LPIC-1 (exam 101)/00 LPIC-1 (exam 101).md",
+    "02 - DevOps/Kubernetes/00 Kubernetes.md",
+    "02 - DevOps/Docker/Общая информация.md",
+    "02 - DevOps/Docker/В чем особенность контейнеров.md",
     "02 - DevOps/Сети/iptables.md",
+    "02 - DevOps/Сети/Команда ip.md",
+    "02 - DevOps/Linux/Логирование/Общее.md",
+    "02 - DevOps/Linux/Логирование/Мониторинг в DevOps основы.md",
+    "02 - DevOps/Linux/Логирование/Логирование.md",
+    "02 - DevOps/Kubernetes/01 k8s начало.md",
+    "02 - DevOps/Kubernetes/02 kubeadm.md",
+    "02 - DevOps/Ansible/Переменные/Как задавать переменные в Ansible.md",
+    "00 - Шаблоны/00 Шаблоны.md",
+    "02 - DevOps/Docker/Инструкции Dockerfile/00 Инструкции Dockerfile.md",
+    "00 - Шаблоны/Bash.md",
+    "02 - DevOps/Docker/00 Docker.md",
+    "02 - DevOps/Bash/00 Bash.md",
+    "02 - DevOps/Bash/Основы/00 Основы Bash.md",
+    "02 - DevOps/Bash/Основы/Конвееры Bash.md",
+    "02 - DevOps/Bash/Основы/Команды/00 Команды Bash.md",
+    "02 - DevOps/Ansible/Переменные/00 Переменные Ansible.md",
+    "02 - DevOps/Ansible/Роли/00 Роли Ansible.md",
+    "02 - DevOps/Ansible/00 Ansible.md",
+    "02 - DevOps/Сети/00 Сети.md",
     "05 - БД/PostgreSQL",
     "02 - DevOps/Linux/Логирование",
     "Что такое CI",
