@@ -1,3 +1,14 @@
+---
+Тема: Python web
+tags:
+  - DevOps
+  - k8s
+  - review
+Дата: 22-08-2025
+sr-due: 2025-08-23
+sr-interval: 1
+sr-ease: 230
+---
 # Работа с объектами
 ```bash
 kubectl get pods # список подов
