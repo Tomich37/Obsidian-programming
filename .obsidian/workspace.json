@@ -25,14 +25,14 @@
             "id": "8aac9f22b4ba0e6c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "02 - DevOps/Kubernetes/Helm/Базовые команды.md",
-                "mode": "preview",
-                "source": false
+                "aFile": ".gitingnore",
+                "bFile": ".gitingnore",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "Базовые команды"
+              "icon": "diff",
+              "title": "Diff: .gitingnore"
             }
           },
           {
@@ -247,11 +247,12 @@
       "obsidian-spaced-repetition:Изучать карточки": false
     }
   },
-  "active": "09ff8fddc057cd74",
+  "active": "8aac9f22b4ba0e6c",
   "lastOpenFiles": [
+    "02 - DevOps/Kubernetes/Helm/Базовые команды.md",
+    "Новый текстовый документ.txt",
     "02 - DevOps/Kubernetes/Манифесты.md",
     "02 - DevOps/Kubernetes/Основные команды Kubernetes.md",
-    "02 - DevOps/Kubernetes/Helm/Базовые команды.md",
     "02 - DevOps/Сети/Диагностика сети.md",
     "02 - DevOps/Linux/Логирование/Общее.md",
     "02 - DevOps/Linux/Логирование/Логирование.md",
@@ -278,7 +279,6 @@
     "02 - DevOps/Подготовка к собеседованию/00 Подготовка к собеседованию.md",
     "02 - DevOps/Linux/LPIC-1 (exam 101)/00 LPIC-1 (exam 101).md",
     "02 - DevOps/Docker/В чем особенность контейнеров.md",
-    "02 - DevOps/Сети/iptables.md",
     "05 - БД/PostgreSQL",
     "02 - DevOps/Linux/Логирование",
     "Что такое CI",
@@ -286,7 +286,6 @@
     "02 - DevOps/Terraform",
     "02 - DevOps/Kubernetes",
     "09 - images/Pasted image 20250729114257.png",
-    "Использование Github",
     "09 - images/Pasted image 20250717220134.png",
     "09 - images/Pasted image 20250717220049.png",
     "09 - images/Pasted image 20250717220010.png",
