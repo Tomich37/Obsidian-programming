@@ -5,9 +5,9 @@ tags:
   - Сети
   - review
 Дата: 23-11-2023
-sr-due: 2025-08-24
-sr-interval: 4
-sr-ease: 270
+sr-due: 2025-09-03
+sr-interval: 6
+sr-ease: 250
 ---
 # Краткое
 | Уровень                                 | Что отвечает              | Типичные проблемы                                           | Полезные команды/инструменты                                                            |
@@ -18,7 +18,7 @@ sr-ease: 270
 | **4. Транспортный (Transport)**         | TCP, UDP, порты           | Порт занят, сервис не слушает, UDP пакеты теряются          | `ss -lntup`, `netstat -tulnp`, `nc -vz host port`, `telnet host port`                   |
 | **3. Сетевой (Network)**                | IP, маршрутизация, ICMP   | Нет маршрута, пинги не идут, NAT не настроен                | `ping`, `traceroute`, `ip route show`, `iptables -L -n`                                 |
 | **2. Канальный (Data Link)**            | MAC-адреса, Ethernet, ARP | ARP не резолвит, мост Docker не работает, VLAN не настроен  | `arp -a`, `ip link`, `brctl show`, `tcpdump -e`                                         |
-| **1. Физический (Physical)**            | Кабели, радио, линк       | Нет линка, кабель выдернут, порт выключен                   | `ethtool eth0`, `dmesg                                                                  |
+| **1. Физический (Physical)**            | Кабели, радио, линк       | Нет линка, кабель выдернут, порт выключен                   | `ethtool eth0`, `dmesg`                                                                 |
 ## Как пользоваться шпаргалкой
 1. **Идём сверху вниз**:    
     - Если `curl http://service:8080/healthz` не отвечает → проверяем 4 уровень (порт слушает?).        

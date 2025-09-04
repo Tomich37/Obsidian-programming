@@ -5,8 +5,8 @@ tags:
   - k8s
   - review
 Дата: 22-08-2025
-sr-due: 2025-08-23
-sr-interval: 1
+sr-due: 2025-08-30
+sr-interval: 5
 sr-ease: 230
 ---
 # Работа с объектами
@@ -31,7 +31,7 @@ kubectl logs <name-pod> --previous # логи упавшего контейне�
 - **Events** (очень важно! например: `ImagePullBackOff`, `OOMKilled`, `CrashLoopBackOff`)
 # Взаимодействие с подом
 ```bash
-kubectl exec -it <name-pod> -- /bin/bash # завти внутрь контейнера
+kubectl exec -it <name-pod> -- /bin/bash # зайти внутрь контейнера
 kubectl port-forward pod/<name-pod> 8080:80 # пробросить порт наружу
 kubectl cp <name-pod>:/path/in/pod ./local # копирование файла из пода
 ```

@@ -1,5 +1,5 @@
 ---
-Тема: Python web
+Тема: Kubernetes
 tags:
   - DevOps
   - k8s

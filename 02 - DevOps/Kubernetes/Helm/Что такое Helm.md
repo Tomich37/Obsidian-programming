@@ -5,9 +5,9 @@ tags:
   - Helm
   - review
 Дата: 22-08-2025
-sr-due: 2025-08-23
-sr-interval: 1
-sr-ease: 230
+sr-due: 2025-09-04
+sr-interval: 10
+sr-ease: 250
 ---
 **Helm** — это менеджер пакетов для Kubernetes. Если вы знакомы с такими менеджерами пакетов, как `apt` для Ubuntu, `yum` для CentOS, `npm` для Node.js или `pip` для Python, то концепция будет вам очень знакома.
 

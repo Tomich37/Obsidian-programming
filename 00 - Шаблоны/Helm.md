@@ -1,5 +1,5 @@
 ---
-Тема: Python web
+Тема: Helm
 tags:
   - DevOps
   - Helm

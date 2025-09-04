@@ -1,5 +1,5 @@
 ---
-Тема: Ansible
+Тема: Bash
 tags:
   - DevOps
   - Bash

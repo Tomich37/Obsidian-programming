@@ -4,67 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "178575dfdb2341ec",
+        "id": "96bf309cac6be945",
         "type": "tabs",
         "children": [
           {
-            "id": "656fcbea4bc157f0",
+            "id": "e406d8dc3b868dc0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Шаблоны/00 Шаблоны.md",
-                "mode": "source",
+                "file": "02 - DevOps/Kubernetes/Helm/Пример простого чарта Helm.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "00 Шаблоны"
-            }
-          },
-          {
-            "id": "8aac9f22b4ba0e6c",
-            "type": "leaf",
-            "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".gitingnore",
-                "bFile": ".gitingnore",
-                "aRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: .gitingnore"
-            }
-          },
-          {
-            "id": "4ac58be67c9b418d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 - DevOps/Docker/Команды Docker.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Команды Docker"
-            }
-          },
-          {
-            "id": "b4816eebc64f60ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "02 - DevOps/Linux/Логирование/Общее.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Общее"
+              "title": "Пример простого чарта Helm"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -185,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02 - DevOps/Linux/Логирование/Общее.md",
+                "file": "02 - DevOps/Сети/Диагностика сети.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Структура Общее"
+              "title": "Структура Диагностика сети"
             }
           },
           {
@@ -215,7 +172,7 @@
             }
           },
           {
-            "id": "81b2c5d0c13b4177",
+            "id": "a3c05d5cf0903704",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -229,7 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 551.5
+    "width": 455.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -244,41 +201,43 @@
       "random-note:Открыть случайную заметку": false,
       "obsidian-excalidraw-plugin:Создать новый чертеж": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-spaced-repetition:Изучать карточки": false
+      "obsidian-spaced-repetition:Изучать карточки": false,
+      "dashboard-navigator:Open dashboard navigator": false
     }
   },
-  "active": "8aac9f22b4ba0e6c",
+  "active": "09ff8fddc057cd74",
   "lastOpenFiles": [
-    "02 - DevOps/Kubernetes/Helm/Базовые команды.md",
-    "Новый текстовый документ.txt",
+    "02 - DevOps/Kubernetes/Helm/Пример простого чарта Helm.md",
+    "02 - DevOps/Сети/OSI.md",
+    "02 - DevOps/Ansible/Шаблоны Ansible.md",
+    "02 - DevOps/Ansible/Роли/Как писать роли Ansible.md",
+    "02 - DevOps/Сети/Диагностика сети.md",
+    "00 - Шаблоны/Web python.md",
+    "00 - Шаблоны/Kubernetes.md",
+    "00 - Шаблоны/Helm.md",
+    "00 - Шаблоны/Bash.md",
+    "00 - Шаблоны/Ansible.md",
+    "00 - Шаблоны/Шаблон C++.md",
+    "00 - Шаблоны/Сети.md",
+    "00 - Шаблоны/Основы python.md",
+    "00 - Шаблоны/Библиотеки python.md",
+    "02 - DevOps/Linux/Логирование/Общее.md",
+    "02 - DevOps/Linux/Логирование/Мониторинг в DevOps основы.md",
+    "02 - DevOps/Kubernetes/Helm/Что такое Helm.md",
     "02 - DevOps/Kubernetes/Манифесты.md",
     "02 - DevOps/Kubernetes/Основные команды Kubernetes.md",
-    "02 - DevOps/Сети/Диагностика сети.md",
-    "02 - DevOps/Linux/Логирование/Общее.md",
-    "02 - DevOps/Linux/Логирование/Логирование.md",
-    "02 - DevOps/Linux/Логирование/Мониторинг в DevOps основы.md",
-    "02 - DevOps/Docker/Команды Docker.md",
-    "00 - Шаблоны/00 Шаблоны.md",
-    "02 - DevOps/Сети/00 Сети.md",
+    "02 - DevOps/Kubernetes/01 k8s начало.md",
+    "02 - DevOps/Docker/Инструкции Dockerfile/00 Инструкции Dockerfile.md",
+    "02 - DevOps/Bash/Основы/Команды/00 Команды Bash.md",
+    "02 - DevOps/Сети/iptables.md",
+    "02 - DevOps/Ansible/Переменные/Как задавать переменные в Ansible.md",
+    "02 - DevOps/Ansible/Переменные/Как написать файл с переменными Ansible.md",
+    "02 - DevOps/Ansible/Переменные/00 Переменные Ansible.md",
+    "Новый текстовый документ.txt",
     "02 - DevOps/Подготовка к собеседованию/Без названия 1.base",
     "02 - DevOps/Подготовка к собеседованию/Без названия.base",
-    "02 - DevOps/Подготовка к собеседованию/02 Дом.Рф.md",
-    "02 - DevOps/Linux/LPIC-1 (exam 101)/01 LPIC 101.1 Работа с железом в Linux. Часть первая - sysfs, devfs, udev.md",
-    "02 - DevOps/Kubernetes/Helm/Что такое Helm.md",
-    "00 - Шаблоны/Kubernetes.md",
-    "02 - DevOps/Kubernetes/00 Kubernetes.md",
-    "02 - DevOps/Kubernetes/Глоссарий/namespace.md",
-    "02 - DevOps/Kubernetes/Глоссарий/00 Глоссарий.md",
     "02 - DevOps/Kubernetes/Глоссарий",
-    "02 - DevOps/Docker/Общая информация.md",
-    "02 - DevOps/Docker/Инструкции Dockerfile/00 Инструкции Dockerfile.md",
-    "00 - Шаблоны/Helm.md",
-    "02 - DevOps/Kubernetes/Helm/00 Helm.md",
-    "02 - DevOps/Подготовка к собеседованию/01 Вопросы на собеседовании.md",
     "02 - DevOps/Kubernetes/Helm",
-    "02 - DevOps/Подготовка к собеседованию/00 Подготовка к собеседованию.md",
-    "02 - DevOps/Linux/LPIC-1 (exam 101)/00 LPIC-1 (exam 101).md",
-    "02 - DevOps/Docker/В чем особенность контейнеров.md",
     "05 - БД/PostgreSQL",
     "02 - DevOps/Linux/Логирование",
     "Что такое CI",
