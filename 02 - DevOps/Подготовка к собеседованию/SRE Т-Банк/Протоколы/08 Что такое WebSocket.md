@@ -23,6 +23,8 @@ WebSocket:
 
 Стартует через HTTP Upgrade:
 ```http
+# Просит сервер переключить HTTP-соединение на WebSocket.
+# Ожидаемо: при поддержке сервер ответит 101 Switching Protocols.
 Upgrade: websocket
 Connection: Upgrade
 ```
@@ -30,4 +32,3 @@ Connection: Upgrade
 Короткий ответ:
 
 WebSocket нужен, когда серверу нужно отправлять данные клиенту в реальном времени без постоянного polling.
-

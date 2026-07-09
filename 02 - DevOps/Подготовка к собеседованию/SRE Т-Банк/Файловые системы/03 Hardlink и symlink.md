@@ -21,12 +21,19 @@
 
 Команды:
 ```bash
+# Создает hardlink: второе имя для того же inode.
+# Ожидаемо: file и hardlink будут иметь одинаковый inode в ls -li.
 ln file hardlink
+
+# Создает symbolic link: отдельный файл-ссылку на путь file.
+# Ожидаемо: symlink будет показывать на file, в ls -l видно symlink -> file.
 ln -s file symlink
+
+# Показывает inode файлов.
+# Ожидаемо: hardlink имеет тот же inode, symlink - другой inode.
 ls -li
 ```
 
 Короткий ответ:
 
 Hardlink - это еще одно имя того же файла на уровне inode. Symlink - отдельный файл-указатель на путь.
-
