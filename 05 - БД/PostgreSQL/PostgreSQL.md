@@ -1,2 +1,6 @@
 - [[Основные команды Postgres]]
-- 
+- [[WAL]]
+- [[EXPLAIN]]
+- [[Backup, restore и PITR]]
+- [[Connection pool]]
+- [[Роли и права PostgreSQL]]
