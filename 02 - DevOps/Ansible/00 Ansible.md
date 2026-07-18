@@ -3,4 +3,7 @@
 - [[Как работает инвентарь Ansible]]
 - [[00 Переменные Ansible]]
 - [[Шаблоны Ansible]]
-- 
+- [[Ad hoc команды Ansible]]
+- [[Handlers Ansible]]
+- [[Pull и push модели]]
+- [[Модули и плагины Ansible]]
