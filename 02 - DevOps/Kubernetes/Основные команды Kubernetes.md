@@ -47,4 +47,4 @@ kubectl get ns # список пространств имен
 kubectl create ns <name-namespace> # создать namespace
 kubectl get pods -n <name-namespace> # смотреть поды в <name-namespace>
 ```
-[[namespace]]
+[[Namespace Kubernetes]]
